@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portafolio | Analista de Datos</title>
+<meta name="description" content="Portafolio profesional de analista de datos: proyectos de Power BI, Looker Studio, AppSheet, Apps Script, Python y SQL.">
+<meta property="og:title" content="Portafolio | Analista de Datos">
+<meta property="og:description" content="Proyectos reales de análisis de datos y automatización.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/icons/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="top" id="top"><div class="bar-in"><a class="brand" href="#inicio" id="brand"></a><nav aria-label="Principal"><ul id="nav"></ul></nav></div></header>
+<section class="hero" id="inicio"><div class="wrap hero-in" id="profile"></div></section>
+<main class="wrap">
+    <section id="sobre-mi"><h2>Sobre mí</h2><div id="about"></div></section>
+    <section id="formacion"><h2>Formación académica</h2><div id="education" class="stack"></div></section>
+    <section id="experiencia"><h2>Experiencia profesional</h2><div id="experience" class="stack"></div></section>
+    <section id="herramientas"><h2>Herramientas y habilidades técnicas</h2><p class="note" id="skillsNote"></p><div id="skills" class="grid-skills"></div></section>
+    <section id="proyectos" class="wide"><h2>Portafolio de proyectos</h2><div id="filters" class="filters" role="group" aria-label="Filtrar por tecnología"></div><div id="projects" class="grid"></div><p id="empty" class="note" hidden>No hay proyectos para esta categoría todavía.</p></section>
+    <section id="contacto"><h2>Contacto</h2><div id="contact"></div></section>
+</main>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Detalle" hidden><div class="modal-box"><button class="close" data-close aria-label="Cerrar">×</button><div id="modalBody"></div></div></div>
+<div class="modal light" id="lightbox" role="dialog" aria-modal="true" aria-label="Imagen ampliada" hidden><button class="close" data-close aria-label="Cerrar">×</button><img id="lbImg" alt=""></div>
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
